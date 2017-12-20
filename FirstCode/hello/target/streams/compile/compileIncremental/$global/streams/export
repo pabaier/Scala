@@ -1,0 +1,1 @@
+scalac -bootclasspath /home/paul/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -classpath /mnt/sda5/projects/Scala/FirstCode/hello/target/scala-2.11/classes /mnt/sda5/projects/Scala/FirstCode/hello/src/main/scala/User.scala /mnt/sda5/projects/Scala/FirstCode/hello/src/main/scala/Hello.scala

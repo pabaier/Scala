@@ -1,1 +1,0 @@
-scalac -bootclasspath /home/paul/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar -classpath /mnt/sda5/projects/ScalaTest/scalatesttutorial/target/scala-2.12/classes /mnt/sda5/projects/ScalaTest/scalatesttutorial/src/main/scala/example/Hello.scala

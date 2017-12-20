@@ -1,0 +1,31 @@
+https://www.youtube.com/watch?v=DxrLPZD1Hxw
+
+directory structure: src/main/scala/<<files>>.scala
+                     src/test/scala/<<test files>>.scala
+                     ./build.sbt
+
+sbt commands
+    help - gets a list of commands
+    tasks - lists all tasks like console, compile, test, run
+          - use ~ for continuous compile/run (runs on save)
+    settings - see the settings for the project
+      
+build.sbt - defines certain settings and dependencies
+    (%% allows you to remove the version from 'scalatest' 
+     -it will use the version defined)
+
+from sbt:
+    compile - compiles the main scala code
+    run - runs Hello.scala
+    test - runs SetSuite.scala
+    reload - need to run when build.sbt is updated
+    console - brings up Scala console
+        val pb = new User("paul", "pb@b.com") - will create an object from User class
+        pb.name
+        pb.email
+        :quit
+    exit
+
+
+
+http://www.scalatest.org/user_guide
